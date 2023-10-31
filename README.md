@@ -24,9 +24,11 @@ green, and blue. When considering black-and-white images, the value is taken in 
 
 ## 2D DCT
 The formula of the Discrete Cosine Transform is as follows:
+
 <img width="668" alt="image" src="https://github.com/CuiyuanLiu/NUS-4268-Image-Procession/assets/34060865/1daf3400-57d2-40f2-afd4-c4044bc12154">
 
 Its inverse transform has the formula:
+
 <img width="690" alt="image" src="https://github.com/CuiyuanLiu/NUS-4268-Image-Procession/assets/34060865/a531b455-e611-45a9-aed8-432db981401c">
 
 <img width="432" alt="image" src="https://github.com/CuiyuanLiu/NUS-4268-Image-Procession/assets/34060865/deabf5e4-37cb-4872-a845-b124fde87efc">
@@ -42,6 +44,7 @@ picking the $\frac{64}{r}$ biggest blocks (in magnitude) and then could approach
 Then we could return or generate a corresponding processed image.
 
 The logic could be:
+
 <img width="859" alt="image" src="https://github.com/CuiyuanLiu/NUS-4268-Image-Procession/assets/34060865/6d7ddd52-c766-4964-8125-125dd160ad08">
 
 A simple guide to use this project is to run the python file `main.py` by inputting `python main.py
